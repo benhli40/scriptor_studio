@@ -1,0 +1,33 @@
+body.dark .version-item {
+  background-color: #222;
+  border-color: #333;
+  color: #eee;
+}
+
+body.dark .version-preview {
+  background-color: #1a1a1a;
+  color: #ddd;
+  border-color: #444;
+}
+
+body.dark .note-result {
+  background-color: #1e1e1e;
+  border-color: #333;
+  color: #eee;
+}
+
+body.dark .note-result button {
+  background-color: #4da6ff;
+}
+
+body.dark .note-result button:hover {
+  background-color: #1e90ff;
+}
+
+body.dark .note-result button:active {
+  background-color: #007acc;
+}
+
+body.dark .note-result button:focus {
+  outline: none;
+}

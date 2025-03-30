@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scriptor Studio</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.png" />
+</head>
+
+<body>
+  <header>
+    <h1>✍️ Scriptor Studio</h1>
+    <p>Your local, private markdown writing & note-taking tool.</p>
+
+    <button id="toggle-theme" class="theme-btn">🌓 Theme</button>
+  </header>
+
+  <nav class="main-nav">
+    <button onclick="navigate('home')">🏠 Home</button>
+    <button onclick="navigate('write')">✍️ Write</button>
+    <button onclick="navigate('search')">🔍 Search</button>
+    <button onclick="navigate('history')">🕘 Versions</button>
+  </nav>
+
+  <main id="view">
+    <!-- Views (home/write/history/search) will be injected here -->
+    <p>Loading...</p>
+  </main>
+
+  <footer>
+    <p>Built with 💻 + ❤️ + 🧠 by Benjamin Liles. All data is stored locally or in your control.</p>
+  </footer>
+
+  <!-- JS Glue -->
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
