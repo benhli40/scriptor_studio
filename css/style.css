@@ -199,3 +199,16 @@ body.dark .note-result button {
   background-color: #4da6ff;
   color: #fff;
 }
+
+header, footer {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+header h1,
+header p,
+footer p {
+  margin: 0.5rem auto;
+  display: inline-block;
+}
