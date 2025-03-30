@@ -212,3 +212,76 @@ footer p {
   margin: 0.5rem auto;
   display: inline-block;
 }
+
+header {
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+
+.main_head h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.main_head p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.theme-btn {
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.theme-btn:hover {
+  background-color: #ddd;
+}
+
+/* Optional: spacing for nav */
+.main-nav {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Default light mode */
+body {
+  background-color: #fff;
+  color: #111;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+/* Make sure links and text contrast well */
+body.dark a {
+  color: #90caf9;
+}
+
+/* Optional: dark mode for header and footer */
+body.dark header,
+body.dark footer {
+  background-color: #1e1e1e;
+}
+
+/* Button-specific already styled? If not: */
+body.dark .theme-btn {
+  background-color: #333;
+  color: #eee;
+}
+
+body.dark .theme-btn:hover {
+  background-color: #444;
+}
